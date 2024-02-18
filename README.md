@@ -6,12 +6,8 @@ The project is dockerized.
 
 ## Docker
 
+[to finish]
 `docker-compose up`
-and then go to
-
-`http://localhost:8080/books`
-
-API routes are present in the postman collection
 
 ## Native install
 
@@ -38,7 +34,7 @@ then you can run
 2. `source .env`
 3. `diesel setup`
 
-#### lpq lib error 
+#### lpq lib error
 
 if you have the following error on mac os 
 `= note: ld: library not found for -lpq`

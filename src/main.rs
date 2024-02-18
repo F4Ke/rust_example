@@ -64,6 +64,10 @@ async fn main() -> std::io::Result<()> {
                 web::resource("/books")
                     .route(web::get().to(controllers::books_handler))
             )
+            .service(
+                web::resource("/ruby")
+                    .route(web::get().to(controllers::ruby_run))
+            )
     })
     .bind(format!("{}:{}", host, port))?
     .run()

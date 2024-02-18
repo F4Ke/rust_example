@@ -17,4 +17,5 @@ diesel = { version = "2.1.4", features = ["postgres", "r2d2", "chrono"] }
 env_logger = "0.10.1"
 handlebars = { version = "4.5.0", features = ["dir_source"]}
 tracing = "0.1.40"
+macro-ruby = { version = "1.1.1", features = ["full"] }
 tracing-subscriber = "0.3.18"

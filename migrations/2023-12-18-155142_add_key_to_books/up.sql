@@ -1,0 +1,2 @@
+-- Your SQL goes here
+ALTER TABLE books ADD COLUMN key VARCHAR NOT NULL;

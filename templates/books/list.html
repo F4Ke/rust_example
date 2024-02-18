@@ -1,0 +1,14 @@
+{{> _header}}
+
+<main>
+    <h4>
+        Book list
+    </h4>
+    {{#each books}}
+    <div>{{this.title}} - {{this.summary}}</div>
+    {{/each}}
+</main>
+
+{{> _footer}}
+
+<!-- <script src="/static/app.js"></script>  Custom JS ? --> 
